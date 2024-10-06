@@ -64,4 +64,20 @@
                     <br><br> &copy; 2024 All Rights Reserved - Data druid
                 </footer>
             </body>
+        <script>
+    window.onload = function() {
+        // تحميل البيانات من LocalStorage
+        document.getElementById('aboutMeDisplay').innerText = localStorage.getItem('aboutMe') || 'I am Egyptian programmer, I work on websites, Bots, scripts and too many another programming projects, Let's take a look.';
+        document.getElementById('myNameDisplay').innerText = localStorage.getItem('myName') || 'Omar Maher';
+        document.getElementById('myJobDisplay').innerText = localStorage.getItem('myJob') || 'Web programmer';
+        document.getElementById('myCountryDisplay').innerText = localStorage.getItem('myCountry') || 'Egypt, Alexandria';
+        document.getElementById('myBirthdayDisplay').innerText = localStorage.getItem('myBirthday') || '2/11/2001';
+
+        // تحديث الروابط
+        document.getElementById('whatsappLinkDisplay').innerText = localStorage.getItem('whatsappLink') || 'Not provided';
+        document.getElementById('telegramLinkDisplay').innerText = localStorage.getItem('telegramLink') || 'Not provided';
+        document.getElementById('instagramLinkDisplay').innerText = localStorage.getItem('instagramLink') || 'Not provided';
+        document.getElementById('youtubeLinkDisplay').innerText = localStorage.getItem('youtubeLink') || 'Not provided';
+    };
+        </script>
         </html>
