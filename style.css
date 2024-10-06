@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: #38363A;
+    width: 100%;
+    text-align: center;
+}
+body {
+    background: linear-gradient(white , black);
+}
+h1 {
+    color: gold;
+    font-style: italic;
+
+}
+oo {
+    color: red;
+    font-style: italic;
+}
+.header p {
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+.title {
+    color: black;
+    margin: 8px;
+}
+.box {
+    background: Indigo;
+    border-radius: 10px;
+    margin: 8px;
+    color: white;
+}
+.box p {
+    margin: 8px;
+}
+h2,h3,h4 {
+    color: gold;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+.box a {
+    color: red;
+    text-decoration: underline;
+}
+footer {
+    color: white;
+    margin: 8px;
+    text-align: center;
+}
+button {
+    padding: 10px 20px;
+    background-color: indigo;
+    color: gold; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-weight: bold;
+}
+button:hover {
+    opacity: 0.8; 
+}
