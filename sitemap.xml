@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- الصفحة الرئيسية -->
+    <url>
+        <loc>https://yourwebsite.github.io/index.html</loc>
+        <lastmod>2024-10-09</lastmod>
+        <priority>1.00</priority>
+    </url>
+
+    <!-- صفحة الخدمات -->
+    <url>
+        <loc>https://yourwebsite.github.io/service.html</loc>
+        <lastmod>2024-10-09</lastmod>
+        <priority>0.80</priority>
+    </url>
+
+    <!-- صفحة واتساب -->
+    <url>
+        <loc>https://wa.me/+201556675004</loc>
+        <priority>0.60</priority>
+    </url>
+
+    <!-- صفحة تيليجرام -->
+    <url>
+        <loc>https://t.me/data_druid</loc>
+        <priority>0.60</priority>
+    </url>
+
+    <!-- صفحة إنستجرام -->
+    <url>
+        <loc>https://www.instagram.com/leo.dev221?igsh=YzljYTk1ODg3Zg==</loc>
+        <priority>0.60</priority>
+    </url>
+
+    <!-- صفحة يوتيوب -->
+    <url>
+        <loc>https://www.youtube.com/@data_druid_official_1</loc>
+        <priority>0.60</priority>
+    </url>
+</urlset>
